@@ -53,7 +53,7 @@ Asegúrate de que tu sistema cumple con los siguientes requisitos antes de comen
 
    - Selecciona la opción de instalación junto a Windows (dual boot).
      
-      <img src="https://github.com/danimap27/Guia-Ubuntu/assets/74870961/377c549d-fb6e-4384-8727-82f37313e5b8" width="50%" height="50%">
+      <img src="https://github.com/danimap27/Guia-Ubuntu/assets/74870961/377c549d-fb6e-4384-8727-82f37313e5b8" width="75%" height="75%">
 
 
    
