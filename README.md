@@ -9,10 +9,15 @@ Asegúrate de que tu sistema cumple con los siguientes requisitos antes de comen
 - **Memoria RAM:** Requisitos mínimos para ambas plataformas.
 ## Preparacíon de Windows
 1. **Acceder a administracion de discos (Particiones)**
+   
    ![image](https://github.com/danimap27/Guia-Ubuntu/assets/74870961/f3e1badb-949c-4205-8fa3-0b3746f5991d)
+   
 2. **Pulsamos click derecho a la partición donde queramos instalar ubuntu (También se podria usar otro disco duro a parte)**
+   
    ![image](https://github.com/danimap27/Guia-Ubuntu/assets/74870961/f5aed04e-231c-40f1-9783-d8d49d313c67)
+   
 3. **Una vez hayamos decidido la cantidad de memoria de disco que vayamos a asignar a Ubuntu le damos a reducir y nos aparecera una particion en el disco donde se puede observar la memoria asignada**
+
    ![image](https://github.com/danimap27/Guia-Ubuntu/assets/74870961/9f3857af-93ce-4f66-a35f-07da5519c2ff)
 
 ## Instalación de Ubuntu
