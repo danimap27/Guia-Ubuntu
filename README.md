@@ -22,8 +22,7 @@ Asegúrate de que tu sistema cumple con los siguientes requisitos antes de comen
 
    <p align="center">
       <img src="https://github.com/danimap27/Guia-Ubuntu/assets/74870961/9f3857af-93ce-4f66-a35f-07da5519c2ff">
-   </p>
-
+   </p> 
 
 ## Instalación de Ubuntu
 
@@ -54,8 +53,6 @@ Asegúrate de que tu sistema cumple con los siguientes requisitos antes de comen
    - Selecciona la opción de instalación junto a Windows (dual boot).
      
       <img src="https://github.com/danimap27/Guia-Ubuntu/assets/74870961/377c549d-fb6e-4384-8727-82f37313e5b8" width="85%" height="85%">
-
-
    
 4. **Instala el Cargador de Arranque (GRUB Customizer):**
    - Instalar GRUB Customizer.
@@ -71,6 +68,72 @@ Asegúrate de que tu sistema cumple con los siguientes requisitos antes de comen
    - Si prefieres que Windows sea la opción predeterminada en GRUB, puedes ajustar la prioridad de arranque en el archivo `/etc/default/grub`.
      
 # Personalización de Ubuntu
+
+## Comandos Básicos en Bash
+
+### Navegación y Manipulación de Archivos/Directorios
+
+- `ls`: Listar archivos y directorios.
+- `cd`: Cambiar de directorio.
+- `pwd`: Mostrar el directorio actual.
+- `mkdir`: Crear un nuevo directorio.
+- `cp`: Copiar archivos/directorios.
+- `mv`: Mover o renombrar archivos/directorios.
+- `rm`: Eliminar archivos/directorios.
+- `touch`: Crear un archivo vacío.
+
+### Visualización de Contenido
+
+- `cat`: Mostrar el contenido completo de un archivo.
+- `more` / `less`: Visualizar contenido paginado de un archivo.
+- `head`: Mostrar las primeras líneas de un archivo.
+- `tail`: Mostrar las últimas líneas de un archivo.
+
+### Edición de Archivos de Texto
+
+- `nano` / `vim` / `emacs`: Editores de texto en la terminal.
+
+### Trabajo con Archivos Comprimidos
+
+- `tar`: Comprimir o descomprimir archivos en formato tar.
+- `zip` / `unzip`: Comprimir o descomprimir archivos en formato zip.
+
+### Redirección y Pipes
+
+- `>`: Redirigir la salida estándar a un archivo (crear o sobrescribir).
+- `>>`: Redirigir la salida estándar a un archivo (agregar al final).
+- `<`: Redirigir la entrada estándar desde un archivo.
+- `|`: Pipe, redirige la salida de un comando como entrada a otro.
+
+### Permisos y Propietarios
+
+- `chmod`: Cambiar permisos de archivos/directorios.
+- `chown`: Cambiar el propietario de archivos/directorios.
+- `chgrp`: Cambiar el grupo de archivos/directorios.
+
+### Procesos y Tareas
+
+- `ps`: Mostrar información sobre procesos en ejecución.
+- `kill`: Terminar un proceso.
+- `bg` / `fg`: Poner un proceso en segundo/plano o primer plano.
+- `jobs`: Mostrar trabajos en segundo plano.
+
+### Variables de Entorno
+
+- `export`: Establecer variables de entorno.
+- `echo $VARIABLE`: Mostrar el valor de una variable de entorno.
+
+### Ayuda y Documentación
+
+- `man`: Mostrar el manual de un comando.
+- `--help`: Obtener ayuda para un comando específico.
+
+### Otros Comandos Útiles
+
+- `grep`: Buscar patrones en archivos o salida de comandos.
+- `find`: Buscar archivos y directorios en el sistema.
+- `ssh`: Conectar a un servidor remoto de forma segura.
+
 
 1. **Temas y Fondos de Pantalla:**
    - Explora la Configuración de Apariencia para cambiar temas y fondos de pantalla.
