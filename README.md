@@ -7,16 +7,23 @@ Asegúrate de que tu sistema cumple con los siguientes requisitos antes de comen
 - **Memoria RAM:** Si en tu ordenador funciona Windows correctamente no tendras problema al instalar Ubuntu.
 ## Preparacíon de Windows
 1. **Acceder a administracion de discos (Particiones):**
-   
-   ![image](https://github.com/danimap27/Guia-Ubuntu/assets/74870961/7ca07fc5-6776-4b46-acd6-a561f95946c3)
-   
-2. **Pulsamos click derecho a la partición donde queramos instalar ubuntu (También se podria usar otro disco duro a parte):**
-   
-   ![image](https://github.com/danimap27/Guia-Ubuntu/assets/74870961/f5aed04e-231c-40f1-9783-d8d49d313c67)
-   
-3. **Una vez hayamos decidido la cantidad de memoria de disco que vayamos a asignar a Ubuntu le damos a reducir y nos aparecera una particion en el disco donde se puede observar la memoria asignada:**
 
-   ![image](https://github.com/danimap27/Guia-Ubuntu/assets/74870961/9f3857af-93ce-4f66-a35f-07da5519c2ff)
+   <p align="center">
+      <img src="https://github.com/danimap27/Guia-Ubuntu/assets/74870961/7ca07fc5-6776-4b46-acd6-a561f95946c3">
+   </p>
+   
+3. **Pulsamos click derecho a la partición donde queramos instalar ubuntu (También se podria usar otro disco duro a parte):**
+   
+   <p align="center">
+      <img src="https://github.com/danimap27/Guia-Ubuntu/assets/74870961/f5aed04e-231c-40f1-9783-d8d49d313c67" width="400" height="300">
+   </p>
+   
+4. **Una vez hayamos decidido la cantidad de memoria de disco que vayamos a asignar a Ubuntu le damos a reducir y nos aparecera una particion en el disco donde se puede observar la memoria asignada:**
+
+   <p align="center">
+      <img src="https://github.com/danimap27/Guia-Ubuntu/assets/74870961/9f3857af-93ce-4f66-a35f-07da5519c2ff">
+   </p>
+
 
 ## Instalación de Ubuntu
 
@@ -26,22 +33,29 @@ Asegúrate de que tu sistema cumple con los siguientes requisitos antes de comen
 2. **Crear un USB de Arranque:**
    - Utiliza herramientas como [Rufus](https://rufus.ie/es/) o [Balena](https://etcher.balena.io/#download-etcher) (en Windows) o dd (en Linux) para crear un USB de arranque con la imagen de Ubuntu.
    - En la herramienta que hayamos descargado seleccionamos el dispositivo que queramos utilizar como USB de arranque y seleccionamos el SO que queramos instalar.
-
-     ![image](https://github.com/danimap27/Guia-Ubuntu/assets/74870961/80529f67-6fa8-4b2b-bff7-34dc7de73c7a)
+     
+   <p align="center">
+      <img src="https://github.com/danimap27/Guia-Ubuntu/assets/74870961/80529f67-6fa8-4b2b-bff7-34dc7de73c7a" width="400" height="500">
+   </p>
 
 3. **Arranca desde el USB:**
    - Reinicia tu ordenador y arranca desde el USB.
-   ![image](https://github.com/danimap27/Guia-Ubuntu/assets/74870961/2ff9b906-9b38-4786-a051-828b74cb9db6)
+   
+     <img src="https://github.com/danimap27/Guia-Ubuntu/assets/74870961/2ff9b906-9b38-4786-a051-828b74cb9db6">
+   
 
 4. **Instalación de Ubuntu:**
    - Sigue el asistente de instalación.
-   
-   ![image](https://github.com/danimap27/Guia-Ubuntu/assets/74870961/7c105327-37ec-4b82-a152-10273b849fbe)
 
-   ![image](https://github.com/danimap27/Guia-Ubuntu/assets/74870961/1b5134b1-5f33-42d6-ba09-e5a97c17b02e)
+     <img src="https://github.com/danimap27/Guia-Ubuntu/assets/74870961/7c105327-37ec-4b82-a152-10273b849fbe" width="50%" height="50%">
+
+     <img src="https://github.com/danimap27/Guia-Ubuntu/assets/74870961/1b5134b1-5f33-42d6-ba09-e5a97c17b02e" width="50%" height="50%">
+
    - Selecciona la opción de instalación junto a Windows (dual boot).
      
-   ![image](https://github.com/danimap27/Guia-Ubuntu/assets/74870961/377c549d-fb6e-4384-8727-82f37313e5b8)
+      <img src="https://github.com/danimap27/Guia-Ubuntu/assets/74870961/377c549d-fb6e-4384-8727-82f37313e5b8" width="50%" height="50%">
+
+
    
 4. **Instala el Cargador de Arranque (GRUB Customizer):**
    - Instalar GRUB Customizer.
@@ -50,17 +64,13 @@ Asegúrate de que tu sistema cumple con los siguientes requisitos antes de comen
      sudo apt install grub-customizer
      ```
    - Completa la instalación y reinicia.
-
-## Configuración Post-Instalación
-
-1. **Personalizar GRUB:**
+     
+4. **Personalizar GRUB de forma manual:**
    - Edita el archivo `/etc/default/grub` para ajustar las configuraciones, como el tiempo de espera, el fondo de pantalla, etc.
    - Después de editar, ejecuta `sudo update-grub` para aplicar los cambios.
-
-2. **Configurar la Prioridad de Arranque (si es necesario):**
    - Si prefieres que Windows sea la opción predeterminada en GRUB, puedes ajustar la prioridad de arranque en el archivo `/etc/default/grub`.
-
-## Personalización Adicional de Ubuntu
+     
+# Personalización de Ubuntu
 
 1. **Temas y Fondos de Pantalla:**
    - Explora la Configuración de Apariencia para cambiar temas y fondos de pantalla.
