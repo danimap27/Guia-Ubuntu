@@ -1,43 +1,54 @@
 # Guía de Instalación de Dual Boot Windows y Ubuntu
-Guia para instalar un doble boot Windows y Ubuntu. Personalizar ubuntu para rendimiento de desarrollador
+Guia para instalar un doble boot Windows y Ubuntu. Personalizar ubuntu para rendimiento de desarrollador.
 ## Requisitos del Sistema
-
 Asegúrate de que tu sistema cumple con los siguientes requisitos antes de comenzar la instalación:
-
-- **Sistema Operativo:** Windows y Ubuntu.
-- **Espacio en Disco:** Partición libre para Ubuntu.
-- **Memoria RAM:** Requisitos mínimos para ambas plataformas.
+- **Sistema Operativo:** [Windows](https://www.mediafire.com/file/i026wqg4coyqw59/Windows+10+LTSC+2021.iso/file) y [Ubuntu](https://ubuntu.com/download/desktop).
+- **Espacio en Disco:** Partición libre para Ubuntu (Recomendado minimo 10GB).
+- **Memoria RAM:** Si en tu ordenador funciona Windows correctamente no tendras problema al instalar Ubuntu.
 ## Preparacíon de Windows
-1. **Acceder a administracion de discos (Particiones)**
+1. **Acceder a administracion de discos (Particiones):**
    
-   ![image](https://github.com/danimap27/Guia-Ubuntu/assets/74870961/f3e1badb-949c-4205-8fa3-0b3746f5991d)
+   ![image](https://github.com/danimap27/Guia-Ubuntu/assets/74870961/7ca07fc5-6776-4b46-acd6-a561f95946c3)
    
-2. **Pulsamos click derecho a la partición donde queramos instalar ubuntu (También se podria usar otro disco duro a parte)**
+2. **Pulsamos click derecho a la partición donde queramos instalar ubuntu (También se podria usar otro disco duro a parte):**
    
    ![image](https://github.com/danimap27/Guia-Ubuntu/assets/74870961/f5aed04e-231c-40f1-9783-d8d49d313c67)
    
-3. **Una vez hayamos decidido la cantidad de memoria de disco que vayamos a asignar a Ubuntu le damos a reducir y nos aparecera una particion en el disco donde se puede observar la memoria asignada**
+3. **Una vez hayamos decidido la cantidad de memoria de disco que vayamos a asignar a Ubuntu le damos a reducir y nos aparecera una particion en el disco donde se puede observar la memoria asignada:**
 
    ![image](https://github.com/danimap27/Guia-Ubuntu/assets/74870961/9f3857af-93ce-4f66-a35f-07da5519c2ff)
 
 ## Instalación de Ubuntu
 
 1. **Descarga la Imagen de Ubuntu:**
-   - Visita el sitio web oficial de Ubuntu y descarga la última versión estable.
+   - Visita el sitio web oficial de [Ubuntu](https://ubuntu.com/download/desktop) y descarga la última versión estable.
 
 2. **Crear un USB de Arranque:**
-   - Utiliza herramientas como Rufus (en Windows) o dd (en Linux) para crear un USB de arranque con la imagen de Ubuntu.
+   - Utiliza herramientas como [Rufus](https://rufus.ie/es/) o [Balena](https://etcher.balena.io/#download-etcher) (en Windows) o dd (en Linux) para crear un USB de arranque con la imagen de Ubuntu.
+   - En la herramienta que hayamos descargado seleccionamos el dispositivo que queramos utilizar como USB de arranque y seleccionamos el SO que queramos instalar.
+
+     ![image](https://github.com/danimap27/Guia-Ubuntu/assets/74870961/80529f67-6fa8-4b2b-bff7-34dc7de73c7a)
 
 3. **Arranca desde el USB:**
-   - Reinicia tu computadora y arranca desde el USB.
+   - Reinicia tu ordenador y arranca desde el USB.
+   ![image](https://github.com/danimap27/Guia-Ubuntu/assets/74870961/2ff9b906-9b38-4786-a051-828b74cb9db6)
 
 4. **Instalación de Ubuntu:**
    - Sigue el asistente de instalación.
-   - Selecciona la opción de instalación junto a Windows (dual boot).
-   - Configura la partición para Ubuntu.
+   
+   ![image](https://github.com/danimap27/Guia-Ubuntu/assets/74870961/7c105327-37ec-4b82-a152-10273b849fbe)
 
-5. **Instala el Cargador de Arranque (GRUB):**
-   - Instala el GRUB en la misma partición que Ubuntu.
+   ![image](https://github.com/danimap27/Guia-Ubuntu/assets/74870961/1b5134b1-5f33-42d6-ba09-e5a97c17b02e)
+   - Selecciona la opción de instalación junto a Windows (dual boot).
+     
+   ![image](https://github.com/danimap27/Guia-Ubuntu/assets/74870961/377c549d-fb6e-4384-8727-82f37313e5b8)
+   
+4. **Instala el Cargador de Arranque (GRUB Customizer):**
+   - Instalar GRUB Customizer.
+     
+     ```bash
+     sudo apt install grub-customizer
+     ```
    - Completa la instalación y reinicia.
 
 ## Configuración Post-Instalación
