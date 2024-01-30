@@ -47,9 +47,9 @@ Asegúrate de que tu sistema cumple con los siguientes requisitos antes de comen
 4. **Instalación de Ubuntu:**
    - Sigue el asistente de instalación.
 
-     <img src="https://github.com/danimap27/Guia-Ubuntu/assets/74870961/7c105327-37ec-4b82-a152-10273b849fbe" width="50%" height="50%">
+     <img src="https://github.com/danimap27/Guia-Ubuntu/assets/74870961/7c105327-37ec-4b82-a152-10273b849fbe" width="75%" height="75%">
 
-     <img src="https://github.com/danimap27/Guia-Ubuntu/assets/74870961/1b5134b1-5f33-42d6-ba09-e5a97c17b02e" width="50%" height="50%">
+     <img src="https://github.com/danimap27/Guia-Ubuntu/assets/74870961/1b5134b1-5f33-42d6-ba09-e5a97c17b02e" width="75%" height="75%">
 
    - Selecciona la opción de instalación junto a Windows (dual boot).
      
