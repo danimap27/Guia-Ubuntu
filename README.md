@@ -134,21 +134,7 @@ Asegúrate de que tu sistema cumple con los siguientes requisitos antes de comen
 - `find`: Buscar archivos y directorios en el sistema.
 - `ssh`: Conectar a un servidor remoto de forma segura.
 
+## Personalizacion de terminal de Ubuntu
+La persolizacion de la terminal la vamos a hacer con [ohmybash](https://github.com/ohmybash/oh-my-bash)
 
-1. **Temas y Fondos de Pantalla:**
-   - Explora la Configuración de Apariencia para cambiar temas y fondos de pantalla.
-
-2. **Scripts de Inicio:**
-   - Agrega tus propios scripts de inicio en `~/.config/autostart` para ejecutar aplicaciones al inicio.
-
-3. **Personalizar el Bash Prompt:**
-   - Modifica el archivo `~/.bashrc` para personalizar tu prompt de bash.
-
-4. **Instalar y Configurar Aplicaciones:**
-   - Utiliza el administrador de paquetes `apt` para instalar nuevas aplicaciones.
-   - Configura aplicaciones según tus preferencias.
-
-5. **Optimizar el Rendimiento (opcional):**
-   - Instala controladores gráficos y otros controladores específicos para mejorar el rendimiento.
-
-Recuerda consultar la documentación oficial de Ubuntu y GRUB para obtener información adicional y solucionar problemas comunes. ¡Disfruta de tu sistema dual boot personalizado!
+¡Disfruta de tu sistema dual boot personalizado!
