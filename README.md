@@ -137,4 +137,36 @@ Asegúrate de que tu sistema cumple con los siguientes requisitos antes de comen
 ## Personalizacion de terminal de Ubuntu
 La persolizacion de la terminal la vamos a hacer con [ohmybash](https://github.com/ohmybash/oh-my-bash)
 
+### Instalacion de OhMyBash
+
+1. Clonar el repositorio
+   
+```bash
+git clone https://github.com/ohmybash/oh-my-bash.git ~/.oh-my-bash
+```
+
+2. Hacer copia de seguridad del bashrc
+   
+```bash
+cp ~/.bashrc ~/.bashrc.orig
+```
+
+3. Crea un archivo de configuracion
+
+```bash
+cp ~/.oh-my-bash/templates/bashrc.osh-template ~/.bashrc
+```
+
+4. Recargar la configuracion
+
+```bash
+source ~/.bashrc
+```
+Y ya tendriamos acabada la instalacion de ohmybash.
+
+### Cambio de temas de OhMyBash
+
+
+
+
 ¡Disfruta de tu sistema dual boot personalizado!
