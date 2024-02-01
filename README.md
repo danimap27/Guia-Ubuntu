@@ -164,9 +164,18 @@ source ~/.bashrc
 ```
 Y ya tendriamos acabada la instalacion de ohmybash.
 
-### Cambio de temas de OhMyBash
+### Cambio de temas y fuentes de OhMyBash
 
+1. Accerder al archivo bashrc
+   
+```bash
+nano ~/.bashrc
+```
+2. Cambiar el valor de OSH_THEME por el nombre del [tema](https://github.com/ohmybash/oh-my-bash/blob/master/themes/THEMES.md) que mas os guste
 
+3. Guardamos la configuracion
 
-
+```bash
+source ~/.bashrc
+```
 ¡Disfruta de tu sistema dual boot personalizado!
