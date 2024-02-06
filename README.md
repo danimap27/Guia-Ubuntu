@@ -327,5 +327,6 @@ source ~/.bashrc
      ```bash
      source ~/.bashrc
      ```
-
+## Mas temas extras
+En esta [pagina web](https://www.pling.com/browse?cat=381&ord=latest) podeis encontrar mas temas hechos por usuarios y explicados paso a paso.
 ¡Disfruta de tu sistema dual boot personalizado!
